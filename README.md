@@ -113,4 +113,80 @@ python inference_script.py --weight ./outputs/run/unet --pretrain_weight ./check
 # --cfg:              classifier-free guidance, default: 12.5
 #########################################################################################################
 ```
+## Visual Examples
+### Few-Shot-Based Text-to-Video Generation
+<table class="center">
+    <tr>
+        <td align="center" style="width: 7%"> Horse run</td>
+        <td align="center">
+            <img src="assets/inference-a_horse_runs_in_the_universe (1).gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-a_horse_runs_on_the_Mars (3).gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-a_horse_runs_on_the_road (1).gif">
+        </td>
+    </tr>
+    <tr class="prompt-row">
+        <td align="center" style="width: 7%"> </td>
+        <td align="center">A horse runs in the universe.</td>
+        <td align="center">A horse runs on the Mars.</td>
+        <td align="center">A horse runs on the road.</td>
+    </tr>
+    <tr>
+        <td align="center" style="width: 7%"> Firework</td>
+        <td align="center">
+            <img src="assets/inference-fireworks_in_desert_night.gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-fireworks_over_the_mountains (1).gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-fireworks_in_the_night_city.gif">
+        </td>
+    </tr>
+    <tr class="prompt-row">
+        <td align="center" style="width: 7%"> </td>
+        <td align="center">Fireworks in desert night.</td>
+        <td align="center">Fireworks over the mountains.</td>
+        <td align="center">Fireworks in the night city.</td>
+    </tr>
+    <tr>
+        <td align="center" style="width: 7%"> Play the guitar</td>
+        <td align="center">
+            <img src="assets/inference-GTA5_poster,_a_man_plays_the_guitar.gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-a_woman_plays_the_guitar (1).gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-an_astronaut_plays_the_guitar,_photorelastic.gif">
+        </td>
+    </tr>
+    <tr class="prompt-row">
+        <td align="center" style="width: 7%"> </td>
+        <td align="center">GTA5 poster, a man plays the guitar.</td>
+        <td align="center">A woman plays the guitar.</td>
+        <td align="center">An astronaut plays the guitar, photorealistic.</td>
+    </tr>
+    <tr>
+        <td align="center" style="width: 7%"> Birds fly</td>
+        <td align="center">
+            <img src="assets/inference-birds_fly_in_the_pink_sky.gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-birds_fly_in_the_sky,_over_the_sea.gif">
+        </td>
+        <td align="center">
+            <img src="assets/inference-many_birds_fly_over_a_plaza.gif">
+        </td>
+    </tr>
+    <tr class="prompt-row">
+        <td align="center" style="width: 7%"></td>
+        <td align="center">Birds fly in the pink sky.</td>
+        <td align="center">Birds fly in the sky, over the sea.</td>
+        <td align="center">Many Birds fly over a plaza.</td>
+    </tr>
+<table>
 
